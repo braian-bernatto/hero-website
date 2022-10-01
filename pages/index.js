@@ -20,7 +20,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className='w-screen h-full flex flex-col flex-wrap'>
+    <>
       <Head>
         <title>Superhero Website</title>
         <meta
@@ -29,17 +29,11 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <main className='h-full w-full flex justify-center items-center gap-4 flex-wrap'>
-        <h1 className='w-full text-center font-bold text-4xl text-gray-900 fixed top-0 z-10 bg-white opacity-80 p-3'>
-          Superhero Website
-        </h1>
-        <div className='mt-20 h-full w-full flex justify-center items-center gap-4 flex-wrap'>
-          {heroes.map(hero => (
-            <HeroCard key={hero.id} hero={hero} />
-          ))}
-        </div>
-      </main>
-    </div>
+      <div className='mt-20 h-full w-full flex justify-center items-center gap-4 flex-wrap'>
+        {heroes.map(hero => (
+          <HeroCard key={hero.id} hero={hero} />
+        ))}
+      </div>
+    </>
   )
 }

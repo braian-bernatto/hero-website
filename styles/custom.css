@@ -1,8 +1,5 @@
 :root {
-  --shadow-blue: rgb(38, 57, 77) 0px 20px 30px -10px;
-  --drop-shadow: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  --blue-light: #166b9c;
-  --gold: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+  --blue-light: #0e3c57;
 }
 
 .shadow-card {
