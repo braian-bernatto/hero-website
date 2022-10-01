@@ -9,7 +9,7 @@ const HeroDetails = ({ hero }) => {
         <Image width={500} height={700} src={hero.images.lg} alt={hero.name} />
       </div>
 
-      <div className='flex flex-wrap w-80 justify-center'>
+      <div className='flex flex-wrap lg:w-80 w-full justify-center '>
         {stats.map(([titulo, value]) => (
           <span key={titulo}>
             <div className='single-chart' value={value}></div>
