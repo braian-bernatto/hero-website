@@ -2,7 +2,7 @@
 
 # Link
 
-[https://hero-bernatto.netlify.app/](https://hero-bernatto.netlify.app/hero/69)
+[https://hero-bernatto.netlify.app/](https://hero-bernatto.netlify.app/)
 
 ## Herramientas
 
